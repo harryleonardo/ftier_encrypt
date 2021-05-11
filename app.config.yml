@@ -1,0 +1,4 @@
+# ----------------------- ECHO CONFIGURATION
+PORT: "3002"
+
+KEY: "passphrasewhichneedstobe32bytes!"

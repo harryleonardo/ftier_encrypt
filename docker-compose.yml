@@ -1,0 +1,9 @@
+version: "3.7"
+services: 
+    app:
+        container_name: ftier-encrypt-01
+        image: newbee123/ftier-encrypt:latest
+        ports: 
+            - "3002:3002"
+        volumes: 
+            - app.config.yml
